@@ -1,0 +1,26 @@
+#include "main.h"
+#include <stdio.h>
+/**
+ * main - Entry point
+ * Description - determine sum
+ * Return: 0
+ */
+int main(void)
+{
+	long int y, sum, num1, num2;
+
+	num1 = 0;
+	num2 = 1;
+	sum = 1;
+	y = 0;
+
+	do{
+		if (sum % 2 == 0)
+			y = y + sum;
+		sum = num1 + num2;
+		num1 = num2;
+		num2 = sum;
+	}while (sum < 4000000);
+	printf("%ld\n", y);
+	return (0);
+}
