@@ -7,15 +7,20 @@
  */
 int main(void)
 {
-	int y, sum;
+	int y, sum, num1, num2;
 
-	sum = 1;
+	num1 = 0;
+	num2 = 1;
 
-	for (y = 0; y < 48; y++)
+	for (y = 0; y < 50; y++)
 	{
-		sum = sum + y;
-		printf("%d, ", sum);
+		sum = num1 + num2;
+		num1 = num2;
+		if (y < 49)
+			printf("%d, ", sum);
+		else
+			printf("%d", sum);
+		num2 = sum;
 	}
-	printf("%d\n", (sum + 49));
 	return (0);
 }
