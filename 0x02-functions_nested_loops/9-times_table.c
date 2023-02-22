@@ -17,7 +17,7 @@ void times_table(void)
 			temp = h1 * h2;
 			if (temp > 9)
 			{
-				_putchar('0' + ((temp - (temp % 10)) / 10);
+				_putchar('0' + ((temp - (temp % 10)) / 10));
 				_putchar('0' + (temp % 10));
 			}
 			else
