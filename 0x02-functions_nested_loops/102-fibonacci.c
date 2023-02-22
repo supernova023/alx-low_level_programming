@@ -17,9 +17,9 @@ int main(void)
 		sum = num1 + num2;
 		num1 = num2;
 		if (y < 49)
-			printf("%d, ", sum);
+			printf("%ld, ", sum);
 		else
-			printf("%d", sum);
+			printf("%ld", sum);
 		num2 = sum;
 	}
 	return (0);
