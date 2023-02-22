@@ -20,6 +20,11 @@ void times_table(void)
 				_putchar('0' + ((temp - (temp % 10)) / 10));
 				_putchar('0' + (temp % 10));
 			}
+			else if (h2  > 0)
+			{
+				_putchar(' ');
+				_putchar('0' + temp);
+			}
 			else
 			{
 				_putchar('0' + temp);
