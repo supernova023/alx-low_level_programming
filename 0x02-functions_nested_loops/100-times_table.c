@@ -27,7 +27,7 @@ void print_times_table(int c)
 			}
 			else
 			{
-				if (t != 0)
+				if (h1 != 0)
 				{
 					_putchar(' ');
 					_putchar(' ');
