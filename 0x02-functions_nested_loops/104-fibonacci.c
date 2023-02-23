@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	float y, sum, num1, num2;
+	unsigned long  y, sum, num1, num2;
 
 	num1 = 0;
 	num2 = 1;
@@ -17,9 +17,9 @@ int main(void)
 		sum = num1 + num2;
 		num1 = num2;
 		if (y < 98)
-			printf("%f, ", sum);
+			printf("%lu, ", sum);
 		else
-			printf("%f", sum);
+			printf("%lu", sum);
 		num2 = sum;
 	}
 	printf("\n");
