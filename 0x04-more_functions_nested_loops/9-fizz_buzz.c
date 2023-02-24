@@ -3,13 +3,13 @@
 /**
  * print_square - Extra point
  * Description - print square size n
- * 
+ *
  *
  *
  * Return
  */
 
-void main(void)
+int main(void)
 {
 	int x;
 
@@ -32,4 +32,5 @@ void main(void)
 			printf("%d ", x);
 		}
 	}
+	return (0);
 }
