@@ -3,7 +3,7 @@
 /**
  * print_square - Extra point
  * Description - print square size n
- * @n: variable determines line length
+ * @size: variable determines line length
  *
  *
  * Return
