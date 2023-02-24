@@ -1,4 +1,4 @@
-#include <stadio.h>
+#include <stdio.h>
 #include "main.h"
 /**
  * _isupper - Extra point
@@ -11,7 +11,7 @@
 
 int _isupper(int c)
 {
-	if (c > 64 && c < 91)
+	if (c >= 65 && c <= 90)
 		return (1);
 	else
 		return (0);
