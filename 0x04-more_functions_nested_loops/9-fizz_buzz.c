@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * print_square - Extra point
- * Description - print square size n
+ * main - Extra point
+ * Description - FizzBuzz test solution
  *
  *
  *
