@@ -1,4 +1,4 @@
-#include <stadio>
+#include <stadio.h>
 #include "main.h"
 /**
  * _isupper - Extra point
