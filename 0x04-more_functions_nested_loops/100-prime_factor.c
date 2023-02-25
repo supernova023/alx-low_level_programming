@@ -25,9 +25,9 @@ int main(void)
 					c++;
 				}
 			}
-			if (c >= 2)
+			if (c <= 1)
 			{
-				printf("%ld", x);
+				printf("%ld\n", x);
 				break;
 			}
 		}
