@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * print_rev - Entry Point
+ * rev_string - Entry Point
  * Description: output string in reverse
  * @s: string to output
  *
  * Return: none
  */
-void print_rev(char *s)
+void rev_stringy(char *s)
 {
 	int len = 0;
 
