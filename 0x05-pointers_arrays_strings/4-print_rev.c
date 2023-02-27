@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * _puts - Entry Point
- * Description: output string
- * @str: string to output
+ * print_rev - Entry Point
+ * Description: output string in reverse 
+ * @s: string to output
  *
- * Return: string length
+ * Return: none
  */
-void _puts(char *str)
+void print_rev(char *s)
 {
 	int len = -1;
 
-	while (str[len])
+	while (s[len])
 	{
 		len++;
 	}
 
 	while (len >= 0)
 	{
-		_putchar(str[len]);
+		_putchar(s[len]);
 		len--;
 	}
 	_putchar('\n');
