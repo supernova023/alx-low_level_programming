@@ -1,5 +1,4 @@
 #include "main.h"
-#include <math.h>
 
 /**
  * _atoi - Entry Point
@@ -26,8 +25,8 @@ int _atoi(char *s)
 		x = s[len] - '0';
 		if (x > -1 && x < 10)
 		{
-			num = num + (x * (pow(10, pw)));
-			pw++;
+			num = num + (x * pw);
+			pw = pw * 10;
 		}
 		else if (x == '-')
 		{
