@@ -22,13 +22,13 @@ int _atoi(char *s)
 	len = len - 1;
 	for (i = len; i <= 0; i--)
 	{
-		x = s[len] 48;
+		x = s[len] - 48;
 		if (x > -1 && x < 10)
 		{
 			num = num + (x * pw);
 			pw = pw * 10;
 		}
-		else if (x == '-')
+		else if (x == 55
 		{
 			neg++;
 		}
