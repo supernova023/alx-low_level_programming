@@ -19,7 +19,7 @@ int _atoi(char *s)
 	{
 		len++;
 	}
-
+	len = len - 1;
 	for (i = len; i <= 0; i--)
 	{
 		x = s[len] - '0';
