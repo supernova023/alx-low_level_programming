@@ -10,17 +10,19 @@
 void rev_stringy(char *s)
 {
 	int len = 0;
+	int x = 0;
+	char *s2
 
 	while (s[len])
 	{
-		len++;
+		*(s2 + len) = *(s + len);
 	}
+
+	x = len;
 
 	while (len >= 0)
 	{
-		_putchar(s[len]);
-		if (len == 0)
-			break;
+		*(s + (x - len)) = *(s2 + len);
 		len--;
 	}
 }
