@@ -11,7 +11,7 @@ void rev_stringy(char *s)
 {
 	int len = 0;
 	int x = 0;
-	char *s2
+	char *s2;
 
 	while (s[len])
 	{
