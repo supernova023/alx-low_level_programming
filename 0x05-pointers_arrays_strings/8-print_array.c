@@ -12,9 +12,9 @@ void print_array(int *a, int n)
 {
 	int i = 0;
 
-	for (i = 0; i < a; i++)
+	for (i = 0; i < n; i++)
 	{
-		if (i == (a - 1))
+		if (i == (n - 1))
 		{
 			printf("%d\n", a[i]);
 		}
