@@ -7,7 +7,7 @@
  *
  * Return: none
  */
-void rev_stringy(char *s)
+void rev_string(char *s)
 {
 	int len = 0;
 	int x = 0;
