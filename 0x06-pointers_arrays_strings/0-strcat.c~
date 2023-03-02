@@ -1,0 +1,30 @@
+#include "main.h"
+/**
+ * _strcat - Entry point
+ *
+ * @dest: variable storing destination location
+ * @src: variable storing source data
+ * Return: resulting string to destination
+ */
+char *_strcat(char *dest, char *src)
+{
+	int cd, cs, i;
+
+	i = 0;
+	cd = 0;
+	cs = 0;
+
+	while (dest[cd])
+	{
+		cd++;
+	}
+	while (src[cs])
+	{
+		cs++;
+	}
+	for (i = cd; i < (cd + cs); i++)
+	{
+		dest[i] = src[i-cd];
+	}
+	return (dest);
+}
