@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * _strncat - Entry point
+ * _strncpy - Entry point
  *
  * @dest: variable storing destination location
  * @src: variable storing source data
  * @n: variable limiting number of characters to be used from src
  * Return: resulting string to destination
  */
-char *_strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int cd, i;
 
