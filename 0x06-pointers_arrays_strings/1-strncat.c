@@ -25,7 +25,7 @@ char *_strncat(char *dest, char *src, int n)
 	}
 	for (i = cd; i < (cd + cs); i++)
 	{
-		if ((i - cd + 1) == n)
+		if ((i - cd) == n)
 		{
 			i = cd + cs;
 		}
