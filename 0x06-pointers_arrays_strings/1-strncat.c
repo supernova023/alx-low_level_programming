@@ -27,7 +27,7 @@ char *_strncat(char *dest, char *src, int n)
 	{
 		if ((i - cd + 1) == n)
 		{
-			break;
+			i = cd + cs;
 		}
 		else
 		{
