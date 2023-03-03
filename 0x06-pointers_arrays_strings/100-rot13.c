@@ -61,7 +61,6 @@ char *rot13(char *n)
 	replaceAll(n, 'x', 'k');
 	replaceAll(n, 'y', 'l');
 	replaceAll(n, 'z', 'm');
-	replaceAll(n, 'N', '1');
 	return (n);
 }
 
