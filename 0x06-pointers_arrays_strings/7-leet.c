@@ -1,4 +1,5 @@
 #include "main.h"
+void replaceAll(char *str, char oldChar, char newChar);
 /**
  * leet - Entry point
  *
