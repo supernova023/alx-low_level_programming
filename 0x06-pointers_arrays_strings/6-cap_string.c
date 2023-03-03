@@ -16,7 +16,8 @@ char *cap_string(char *n)
 		if (n[i + 1] != '\0')
 		{
 			check = n[i];
-			switch (check) {
+			switch (check)
+			{
 			case ',':
 			case ';':
 			case '.':
