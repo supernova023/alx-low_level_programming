@@ -1,0 +1,30 @@
+#include "main.h"
+/**
+ * _strchr - Entry point
+ *
+ *
+ *@s: pointer to search in for character c
+ *@c: character to search for
+ *Return: position of character or NULL if character not found
+ */
+
+char *_strchr(char *s, char c)
+{
+	unsigned int i = 0;
+	int f = 0;
+	char *l;
+
+	for (i = 0; s[i] != '\0'; i++)
+	{
+		if (s[i] == c && f == 0)
+		{
+			f = 1;
+			l = &s[i];
+		}
+		else
+		{
+			l = NULL;
+		}
+	}
+	return (l);
+}
