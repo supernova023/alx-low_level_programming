@@ -5,10 +5,10 @@
  *
  *@s: pointer to search in for character c
  *@accept: characters to search for
- *Return: count of characters found
+ *Return: characters found
  */
 
-unsigned int _strpbrk(char *s, char *accept)
+char _strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 
