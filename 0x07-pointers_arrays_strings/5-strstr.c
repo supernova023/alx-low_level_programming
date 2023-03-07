@@ -4,7 +4,7 @@
  *
  *
  *@haystack: pointer to search in for string
- *@accept: string to search for
+ *@needle: string to search for
  *Return: string found or NULL
  */
 
