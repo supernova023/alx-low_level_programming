@@ -1,0 +1,28 @@
+#include "main.h"
+
+/**
+ * _pow_recursion - Entry point
+ *
+ * @n: integer to find factorial of
+ * Return: factorial for n greater than or equal to zero, -1 for less than zero
+ */
+
+int _pow_recursion(int x, int y)
+{
+	int pow = 1;
+
+	if (y < 0)
+	{
+		pow = -1;
+	}
+	else if (y == 0)
+	{
+		pow = 1;
+	}
+	else
+	{
+		pow = x * factorial(x, y - 1);
+	}
+
+	return (pow);
+}
