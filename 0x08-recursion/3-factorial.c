@@ -21,7 +21,7 @@ int factorial(int n)
 	}
 	else
 	{
-		fac = n * factorial(n-1);
+		fac = n * factorial(n - 1);
 	}
 
 	return (fac);
