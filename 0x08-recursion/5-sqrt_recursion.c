@@ -36,7 +36,8 @@ int _sqrt_recursion(int n)
 
 int sqrtfin(int s, int t)
 {
-	int r, check = s - (t * t);
+	int r;
+	long long long long int check = s - (t * t);
 
 	if (t == 0)
 	{
