@@ -1,5 +1,5 @@
 #include "main.h"
-
+int sqrtfin(int s, int t);
 /**
  * _sqrt_recursion - Entry point
  *
