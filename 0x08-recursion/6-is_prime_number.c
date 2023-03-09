@@ -11,11 +11,7 @@ int is_prime_number(int n)
 {
 	int root = 1, x = n - 1;
 
-	if (n < 0)
-	{
-		root = 0;
-	}
-	else if (n == 0)
+	if (n < 2)
 	{
 		root = 0;
 	}
