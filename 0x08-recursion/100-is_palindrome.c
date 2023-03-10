@@ -22,7 +22,7 @@ int is_palindrome(char *s)
 	}
 	else
 	{
-		root = checkpal(n, x, x);
+		root = checkpal(s, x, x);
 	}
 
 	return (root);
