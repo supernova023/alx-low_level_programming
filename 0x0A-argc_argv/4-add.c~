@@ -1,0 +1,35 @@
+#include "main.h"
+#include <stdlib.h>
+/**
+ * main - Entry point
+ *(long int) (argv[2] - '0')
+ * @argc: count args
+ * @argv: store all args
+ * Return: exit condition if code is successful or not
+ */
+
+
+int main(int argc, char **argv)
+{
+	int ans = 0, e = 0;
+
+	while(argc > 1)
+	{
+		argc--;
+		printf("%d\n", argc);
+		if (atoi(argv[argc]))
+		{
+			ans = ans + atoi(argv[argc]);
+
+		}
+		else
+		{
+			printf("Error\n");
+			e = 1;
+			break;
+		}
+	}
+	if (e == 0)
+		printf("%d\n", ans);
+	exit(EXIT_SUCCESS);
+}
