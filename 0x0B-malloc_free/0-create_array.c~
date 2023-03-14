@@ -1,0 +1,24 @@
+#include "main.h"
+
+/**
+ * create_array - Entry point
+ * @c: The character to enter into array
+ * @size: size of array
+ * Return: array with c of size size.
+ * On error, NULL is returned
+ */
+char *create_array(unsigned int size, char c)
+{
+	if (size == 0)
+	{
+		return (NULL);
+	}
+	if (c =='\n')
+	{
+		return (NULL);
+	}
+	else
+	{
+	}
+	return (1);
+}
