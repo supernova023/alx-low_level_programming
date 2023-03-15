@@ -1,0 +1,52 @@
+#include "main.h"
+
+/**
+ * alloc_grid - Entry point
+ * @width: The number of columns
+ * @height: The number of rows
+ * Return: array with of zeros with size width x height
+ * On error, NULL is returned
+ */
+int **alloc_grid(int width, int height)
+{
+	int **a;
+	int i = 0, j = 0;
+
+	if (width <= 0)
+	{
+		return (NULL);
+	}
+	if (height <= 0)
+	{
+		return (NULL);
+	}
+
+	a = malloc(height * sizeof(int *));
+
+	if (a == NULL)
+	{
+		return (NULL);
+	}
+
+	else
+	{
+		for (j = 0; j < height; j++)
+		{
+			a[j] = malloc(width * sizeof(int));
+			if (a[j] == NULL)
+			{
+				for (i = 0; i < j;  i++)
+				{
+					free(a[i]);
+				}
+				free(a);
+				return (NULL);
+			}
+			for (i = 0; i < width; i++)
+			{
+				a[j][i] = 0;
+			}
+		}
+	}
+	return (a);
+}
