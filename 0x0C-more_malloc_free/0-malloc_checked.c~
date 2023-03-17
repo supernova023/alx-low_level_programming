@@ -1,0 +1,13 @@
+#include <unistd.h>
+
+/**
+ * malloc_checked(unsigned int b) - entry point
+ * @b: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+void *malloc_checked(unsigned int b)
+{
+	return (write(1, &c, 1));
+}
