@@ -1,7 +1,7 @@
-#include "main.h"
+#include <unistd.h>
 
 /**
- * malloc_checked - entry point
+ * malloc_checked(unsigned int b) - entry point
  * @b: The number of byte to allocate
  *
  * Return: pointer to allocated memory.
