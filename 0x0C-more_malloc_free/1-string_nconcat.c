@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * char *string_nconcat - entry point
- * @b: 1st string
+ * string_nconcat - entry point
+ * @s1: 1st string
  * @s2: 2nd string
  * @n: number of bytes/chars of n2 to add to n1 and return
  * Return: pointer to concat of n1 plus n2.

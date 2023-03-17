@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * calloc - entry point
+ * _calloc - entry point
  * @nmemb: number of members
  * @size: size of memory to allocate
  *
