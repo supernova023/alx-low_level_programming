@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "dog.h"
 /**
- * init_dog - initialise variable
+ * print_dog - print stored data from variable
  * @d: variable name for struct
  *
  * Return: Void.
@@ -9,7 +9,7 @@
 
 void print_dog(struct dog *d)
 {
-	if (d == 0)
+	if (d == NULL)
 	{
 		return;
 	}
@@ -23,7 +23,14 @@ void print_dog(struct dog *d)
 		printf("Name: %s\n", d->name);
 	}
 
-	printf("Age: %f\n", d->age);
+	if (d->age == 0)
+	{
+		printf("Age: (nil)\n");
+	}
+	else
+	{
+		printf("Age: %f\n", d->age);
+	}
 
 	if (d->owner == 0)
 	{
