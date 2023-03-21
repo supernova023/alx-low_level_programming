@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "dog.h"
 /**
  * new_dog - create 2nd copy of stored data from variable
@@ -36,7 +37,7 @@ dog_t *new_dog(char *name, float age, char *owner)
 
 	dog2->age = age;
 	dog2->owner = malloc(j * sizeof(dog2->owner));
-	if (doge->owner == NULL)
+	if (dog2->owner == NULL)
 	{
 		free(dog2->owner);
 		free(dog2->name);
