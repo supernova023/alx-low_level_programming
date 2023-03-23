@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "main.h"
+
 /**
  * main - Extra point
  * Description - highest prime factor of 612852475143
@@ -13,7 +13,7 @@ int main(void)
 {
 	long int x, y, c;
 
-	for (x = 612852475143; x >= 1; x--)
+	for (x = 612852475142; x >= 1; x--)
 	{
 		if (612852475143 % x == 0)
 		{
@@ -22,7 +22,7 @@ int main(void)
 			{
 				if (x % y == 0)
 				{
-					c++;
+					c = c + 1;
 				}
 			}
 			if (c <= 1)
