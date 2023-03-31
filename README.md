@@ -1,1 +1,1 @@
-Repository of low level programming exercises from alx software engineering course
+alx examples for 0x12-singly_linked_lists
