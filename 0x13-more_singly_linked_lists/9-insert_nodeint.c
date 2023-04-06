@@ -3,7 +3,8 @@
 /**
  * insert_nodeint_at_index - check through nodes in list, insert node at index
  * @head: pointer to head of list to check nodes
- * @index: index value to search for
+ * @idx: index value to search for
+ * @n: value to insert
  * Return: pointer of node at index or NULL
  */
 listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
@@ -30,7 +31,7 @@ listint_t *insert_nodeint_at_index(listint_t **head, unsigned int idx, int n)
 	}
 	else
 	{
-		
+
 		(*head) = (*head)->next;
 		if (head == NULL)
 		{
