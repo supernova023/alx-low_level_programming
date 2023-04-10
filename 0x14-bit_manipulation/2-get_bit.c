@@ -14,6 +14,6 @@ int get_bit(unsigned long int n, unsigned int index)
 	{
 		return (-1); /* check to index is in range of bits assigned to n */
 	}
-	return ((n >> index) & 1); /* shift bits to the right and return value of bit */
+	return ((n >> index) & 1); /* shift bits to the right, return value of bit */
 
 }
