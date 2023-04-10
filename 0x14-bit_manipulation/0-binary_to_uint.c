@@ -8,7 +8,7 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int pow = 1, sum = 0;
+	unsigned int sum = 0;
 	int count = 0, i = 0;
 
 	while (b[count] != '\0')
@@ -30,11 +30,10 @@ unsigned int binary_to_uint(const char *b)
 	{
 		return (0);
 	}
-	for (i = (count - 1); i >= 0; i--)
-	{
-		sum = sum + (b[i] - '0') * pow;
-		pow = pow * 2;
-	}
+	for (i = 0; i < count; i++)
+		{
+		sum = sum * 2 + (b[i] - '0');
+		}
 	return (sum);
 
 }
