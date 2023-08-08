@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * create_file – create file filename and write text_content to it
+ * create_file - Create file filename and write text_content to it.
  * @filename: name of text file to create
  * @text_content: string of char to be written
  * Return: 1 if successful, -1 if not
