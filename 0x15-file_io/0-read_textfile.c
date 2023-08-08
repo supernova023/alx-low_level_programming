@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * read_textfile – reads a defined number of char from txtfile and print
+ * read_textfile - Read letter number of char from txtfile and print
  * @filename: name of text file to read
  * @letters: number of letters to be read
  * Return: value of write function if successful, 0 if not
